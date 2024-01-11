@@ -13,10 +13,10 @@ asobou = Asobou(IMG_PATH, IMG_NAME)
 image = asobou.gen_img_vertical(SPACE_PX, list(range(len(IMG_NAME))))
 image.save("./img/hoge.png")
 ```
-[Monalisa.png](/img/Monalisa.png)
-![Monalisa.png](/img/Monalisa.png)
-[hoge.png](/img/hoge.png)
-![hoge.png](/img/hoge.png)
+[Monalisa.png](/img/Monalisa.png)  
+![Monalisa.png](/img/Monalisa.png)  
+[hoge.png](/img/hoge.png)  
+![hoge.png](/img/hoge.png)  
 
 ### いなり
 ```python
@@ -36,5 +36,5 @@ asobou = Asobou(IMG_PATH, IMG_NAME)
 image = asobou.gen_img_vertical(SPACE_PX, inali)
 image.save("./img/inali.png")
 ```
-[inali.png](/img/inali.png)
-![inali.png](/img/inali.png)
+[inali.png](/img/inali.png)  
+![inali.png](/img/inali.png)  

@@ -16,7 +16,7 @@ class AsobouMovie:
             self.words[word] = [self.img_name[char] for char in word]
         self.video = None
     
-    def gen_imgs_vertical(self, space_width: int):
+    def gen_imgs_vertical(self, space_width: int) -> "AsobouMovie":
 
         # 生成された画像たち
         imgs: list[Image.Image] = []
@@ -30,7 +30,7 @@ class AsobouMovie:
         self.video = concatenate_videoclips(clips, method="compose")
         return self
 
-    def export_video(self, fp: str, fps: int):
+    def export_video(self, fp: str, fps: int) -> None:
         if (self.video == None):
             raise Exception("You have to call gen_imgs_vertical before export_video")
         

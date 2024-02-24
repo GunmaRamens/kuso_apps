@@ -36,5 +36,5 @@ asobou = Asobou(IMG_PATH, IMG_NAME)
 image = asobou.gen_img_vertical(SPACE_PX, inali)
 image.save("./img/inali.png")
 ```
-[inali.png](/img/inali.png)  
-![inali.png](/img/inali.png)  
+[inali.png](/asobou/img/inali.png)  
+![inali.png](/asobou/img/inali.png)  
